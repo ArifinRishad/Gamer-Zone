@@ -8,29 +8,31 @@
     margin: 0%;
     padding: 0%;
 }
+/* common use */
+.manu-span {
+    color: #FF42A5;
+}
 
 /*manu bar*/
 
 .logo-side {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 1.25rem;
     align-items: center;
-    padding: 30px;
+    padding: 2rem;
 }
 
 .logo-side img {
-    height: 40px;
-    width: 86px;
+    height: 2.5rem;
+    width: 5rem;
 }
 
 .logo-side h2 {
-    font-size: 45px;
+    font-size: 2.75rem;
 }
 
-.manu-span {
-    color: #FF42A5;
-}
+
 
 .manu-bar {
    
@@ -38,7 +40,7 @@
     justify-content: space-around;
     align-items: center;
     background: #FFF;
-    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 4px 1.95rem 0px rgba(0, 0, 0, 0.05);
 }
 
 .manu-side a {
@@ -50,10 +52,10 @@
 }
 
 .manu-side .follow {
-    margin-right: 5px;
-    border-radius: 8px;
+    margin-right: .35rem;
+    border-radius: .5rem;
     background: rgba(11, 2, 35, 0.308);
-    padding: 10px;
+    padding: .6rem;
    
 
 }
@@ -69,7 +71,7 @@
     width: 50%;
     text-align: center;
     text-align: left;
-    padding: 150px;
+    padding: 9.38rem;
 
 }
 .banner-img-side {
@@ -95,21 +97,53 @@
 }
 .banner-btn{
     display: flex;
-    gap: 20px;
+    gap: 1.25rem;
     margin-top: 1.5rem;
 }
 .banner-btn-one{
     background-color: #F948B2;
     border-radius: 40px;
-    padding: 21px 35px;
+    padding: 1.30rem 2.5rem;
     font-size: 1.5rem;
     font-weight: 600;
 
 }
 .banner-btn-tow{
     background-color: #4EC5F7;
-    border-radius: 40px;
-    padding: 21px 35px;
+    border-radius: 2.5rem;
+    padding: 1.30rem 2.15rem;
     font-size: 1.5rem;
     font-weight: 600;
 }
+/*banner End*/
+
+/* Online games funny video  */
+.online-game{
+ border: 2px solid red;
+ width: 80%;
+ margin: auto;
+
+
+}
+.online-game-titel{
+    font-size: 2.75rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 100px;
+}
+.online-game-p{
+    font-size: 1.25rem;
+    text-align: center;
+    margin-bottom: 2.5rem;
+    margin-top: 1.5rem;
+}
+.online-game-img{
+    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    width: 80%;
+    margin: auto;
+}
+
+/*mobile*/
