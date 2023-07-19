@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
 
+
 * {
     font-family: 'Work Sans', sans-serif;
 }
@@ -158,8 +159,11 @@
 
 .watch-naw {
     position: relative;
+    
 
 }
+
+
 .watch-naw-logo {
     position: absolute;
     top: 30%;
@@ -173,39 +177,30 @@
 }
 .watch-naw-logo:hover{
     transform: scale(1.3);
-    border: 2px solid #F948B2;
-    
-
+    border: 2px solid #F948B2;  
 }
-
-
 .play-button {
     width: 4.5rem;
     height: 4.5rem;
 }
-
 .watch-naw-logo h4 {
     color: #ffffff;
     font-size: 2.5rem;
     font-weight: 600;
     text-align: center;
-
-
 }
-
 .online-game-img p {
     margin-top: 1.5rem;
     width: 95%;
 }
-
 /* Online games funny video  section end */
+/* Play Instantly,No DownloadsNo Installs. section start */
 .section-play {
     width: 90%;
     margin: auto;
     display: flex;
     margin-top: 6.25rem;
     align-items: center;
-
 }
 
 .play-section-text {
@@ -214,71 +209,58 @@
     padding-left: 14.35rem;
 
 }
-
 .section-play-titel {
     font-size: 2.75rem;
     font-weight: 700;
     width: 48%;
 
 }
-
 .section-play-ditel {
     font-size: 1.25rem;
     font-weight: 600;
     width: 50%;
 }
-
-
 .play-section-img {
     width: 50%;
     position: relative;
-
 }
-
 .small-img {
     position: absolute;
     top: 22.5rem;
     left: -11.25rem;
 }
-
 /* More game section start */
 .more-game-back {
     margin-top: 6rem;
     height: 30vh;
     background-color: #f3badc2a;
-
 }
-
 .more-game {
     width: 80%;
     margin: auto;
-    padding-top: 50px;
+    padding-top: 3.15rem;
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 2rem;
     justify-content: center;
     align-items: center;
-
 }
-
 .game-img {
     display: flex;
     align-items: center;
     gap: 1rem;
-    border-radius: 50px;
+    border-radius: 3.15rem;
     background-color: #FFF;
-    width: 260px;
-    height: 80px;
+    width: 16.25rem;
+    height: 5rem;
     transition: 1s;
     cursor: pointer;
 }
-
 .game-img:hover {
     transform: scale(1.3);
     border: 1px solid #F948B2;
     color: #F948B2;
 }
-
 /* More game section End */
 /*Footer section start*/
 .footer {
@@ -293,7 +275,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 20px;
+    gap: 1.25rem;
     padding-top: 5rem;
 }
 
@@ -304,8 +286,8 @@
 .footer-option {
     display: flex;
     justify-content: center;
-    gap: 60px;
-    margin-top: 60px;
+    gap:3.75rem;
+    margin-top: 3.75rem;
 
 }
 
@@ -313,21 +295,18 @@
     color: #FFF;
     align-items: center;
 }
-
 .footer-icon,
 .footer-policy {
     display: flex;
     justify-content: center;
-    gap: 60px;
-    margin-top: 60px;
+    gap: 3.75rem;
+    margin-top: 3.75rem;
 }
-
 .footer-policy-end {
     display: flex;
     justify-content: center;
-    gap: 60px;
-    margin-top: 30px;
+    gap: 3.75rem;
+    margin-top: 1.88rem;
 }
+/* footer section end */
 
-
-/*mobile*/

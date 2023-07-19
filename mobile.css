@@ -1,0 +1,125 @@
+/* for Mobile */
+@media screen and (max-width:425px) {
+    /* Manu bar */
+    .manu-bar{
+        flex-direction:column ;
+        align-items: center;
+    }
+    .manu-side{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    /* manubar end */
+    .banner {
+        display: flex;
+        flex-direction: column;
+       
+        
+    }
+    .banner-text-side {
+        width: 100%;  
+        margin: none;
+        padding: 0%;
+        margin-top: 10px;
+        text-align: center;
+        margin-top: 15px;
+    }
+    .banner-img-side .img {
+        width: 425px;
+        margin-left: -110px;
+    }
+    /* banner section end */
+    .online-game-img {
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        width: 100%;
+    }
+    /* online game section end */
+    .section-play {
+        display: flex;
+        gap: 30px;
+        flex-direction: column; 
+        margin: 0px;  
+    }
+    .play-section-text {
+        padding-left:10px;
+        width: 95%;
+    }
+    .section-play-titel {
+        font-size: 2.75rem;
+        font-weight: 700;
+        width: 100%;
+    
+    }
+    .section-play-ditel{
+        width: 100%;
+    }
+    .play-section-img .main-img {
+        width: 300px;
+        margin: 0px;
+
+
+        position: relative;
+    }
+    .small-img {
+        position: absolute;
+        width: 70%;
+        top: 15rem;
+        left: -50px;
+    }
+    /* Play Instantly,No DownloadsNo Installs. section End*/
+    
+    .more-game-back {
+        margin-top: 6rem;
+        height: 60vh;
+        background-color: #f3badc2a;
+    }.more-game{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 80px;
+       
+    }
+    .game-img{
+        height: 5px;
+        width: 5px;
+       
+    }
+    /* More game section end */
+    
+    .footer {
+        width: 100%;
+        height: 90vh;
+        background-color: #0B0223;
+        color: #FFF;
+    }.footer-option{
+        flex-wrap: wrap;
+        gap: 3.5rem;
+        margin-top: 2.75rem;
+        line-height: 1rem;
+    }
+    .footer-icon,
+.footer-policy {
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+   padding: 50px;
+    margin-top: -10px;
+    margin-left: 40px;
+    
+}
+.footer-policy {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2.75rem;
+    margin-top: .15rem;
+}
+
+.footer-policy-end{
+    text-align: center;
+    margin-top: .88rem;
+}
+}
+
+
