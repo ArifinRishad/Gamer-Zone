@@ -131,9 +131,8 @@
 .online-game {
     width: 80%;
     margin: auto;
-
-
 }
+
 
 .online-game-titel {
     font-size: 2.75rem;
@@ -159,6 +158,7 @@
 
 .online-game-img p {
     margin-top: 1.5rem;
+    width: 95%;
 }
 
 /* Online games funny video  section end */
