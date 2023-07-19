@@ -55,9 +55,10 @@
     margin-right: .35rem;
     border-radius: .5rem;
     background: rgba(11, 2, 35, 0.308);
-    padding: .6rem;
-   
-
+    padding: .6rem;  
+}
+.fa-brands{
+    color: red;
 }
 
 /*manu bar end*/
@@ -119,7 +120,6 @@
 
 /* Online games funny video  */
 .online-game{
- border: 2px solid red;
  width: 80%;
  margin: auto;
 
@@ -142,8 +142,28 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
+    width: 100%;  
+}
+.online-game-img p{
+    margin-top: 1.5rem;
+}
+/* Online games funny video  section end */
+.section-play{
     width: 80%;
     margin: auto;
+    display: flex;
+}
+.main-img{
+    
+    position: absolute;
+    
+}
+.small-img{
+    position: relative;
+    top: 360px;
+    
+    
+    
 }
 
 /*mobile*/
